@@ -39,6 +39,8 @@ Ensure the following are installed before running the script:
    git clone <repository-url>
    cd <repository-directory>
 
+  2. Please paste the path of the XLM-R sentencepiece.bpe.model at line 23 of acl22-sixtp/fairseq/data/encoders/sentencepiece_bpe.py file.
+
 
 2-stage Model : [HI-KN Model](https://huggingface.co/sujeetkgp/bhasini_hi-kn-model)
 

@@ -40,8 +40,8 @@ Ensure the following are installed before running the script:
    cd <repository-directory>
 
 
-2-stage Model : [text](https://huggingface.co/sujeetkgp/bhasini_hi-kn-model)
+2-stage Model : [HI-KN Model](https://huggingface.co/sujeetkgp/bhasini_hi-kn-model)
 
-XLM-R Model : [text](https://dl.fbaipublicfiles.com/fairseq/models/xlmr.large.tar.gz)
+XLM-R Model : [XLM-R](https://dl.fbaipublicfiles.com/fairseq/models/xlmr.large.tar.gz)
 
 

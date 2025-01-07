@@ -23,7 +23,7 @@ This repository provides a script to perform bilingual text translation and eval
 
 Ensure the following are installed before running the script:
 
-- Python 3.7 or higher
+- Python 3.6
 - `pip` (Python package installer)
 - Required Python packages (installed in the script):
   - `sentencepiece`

@@ -46,4 +46,6 @@ Ensure the following are installed before running the script:
 
 XLM-R Model : [XLM-R](https://dl.fbaipublicfiles.com/fairseq/models/xlmr.large.tar.gz)
 
+Download the 2-stage and XLM-R large models in the repo.
+
 

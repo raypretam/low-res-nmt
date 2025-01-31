@@ -4,7 +4,7 @@
 # set -e
 
 # # Configuration variables
-BASE_DIR="" # repo directory
+BASE_DIR="/home/aniruddha/Two-step-low-res-NMT" # repo directory
 REPO_DIR="${BASE_DIR}/acl22-sixtp"
 XLMR_DIR="${BASE_DIR}/xlmr.large"
 DATA_DIR="${REPO_DIR}/data"
@@ -19,6 +19,7 @@ cd $REPO_DIR
 pip install -e . --user
 python setup.py build_ext --inplace
 pip install sentencepiece
+pip install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
 
 # # Step 2: BPE Conversion
 # echo "Converting text to BPE..."

@@ -47,8 +47,7 @@ Ensure the following are installed before running the script:
 
 2. Please paste the path of the XLM-R sentencepiece.bpe.model at line 23 of acl22-sixtp/fairseq/data/encoders/sentencepiece_bpe.py file.
 
-3. Run ```bash 
-       infer.sh
+3. Run `infer.sh`
 
 
 

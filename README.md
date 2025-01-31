@@ -35,15 +35,14 @@ Ensure the following are installed before running the script:
 ## Setup Instructions
 
 1. Clone this repository:
-   ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   `git clone <repository-url>`
+   `cd <repository-directory>`
 
-    2-stage Model : [HI-KN Model](https://huggingface.co/sujeetkgp/bhasini_hi-kn-model)
+  2-stage Model : [HI-KN Model](https://huggingface.co/sujeetkgp/bhasini_hi-kn-model)
 
-    XLM-R Model : [XLM-R](https://dl.fbaipublicfiles.com/fairseq/models/xlmr.large.tar.gz)
+  XLM-R Model : [XLM-R](https://dl.fbaipublicfiles.com/fairseq/models/xlmr.large.tar.gz)
 
-    Download the 2-stage and XLM-R large models and place them in the repo.
+  Download the 2-stage and XLM-R large models and place them in the repo.
 
 2. Please paste the path of the XLM-R sentencepiece.bpe.model at line 23 of acl22-sixtp/fairseq/data/encoders/sentencepiece_bpe.py file.
 
